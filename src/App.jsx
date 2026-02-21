@@ -5,6 +5,7 @@ import "./App.css";
 import { Index } from "./Index";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import Ahmed from "./ahmed";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -32,6 +33,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Index />
+      <Ahmed />
       <Footer />
     </>
   );
